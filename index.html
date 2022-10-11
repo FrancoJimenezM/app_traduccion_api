@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>translate-app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="capa">
+            <div class="in-texto">
+                    <textarea class="de" placeholder="Ingresa el texto"></textarea>
+                    <textarea class="hacia" placeholder="Traducción" readonly disabled></textarea>
+            </div>
+            <ul class="controles">
+                <li class="columna origen">
+                    <div class="iconos">
+                        <i id = "origen" class="fas fa-volume-up"></i>
+                        <i id = "origen" class="fas fa-copy"></i>
+                    </div>
+                    <select></select>     
+                </li>
+                <li class="intercambio"><i class="fas fa-exchange-alt"></i></li>
+                <li class="columna destino">
+                    <select></select>
+                    <div class="iconos">
+                        <i id="destino" class="fas fa-volume-up"></i> 
+                        <i id="destino" class="fas fa-copy"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <button>Traducir Texto</button>    
+    </div>
+    <script src="js/paises.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

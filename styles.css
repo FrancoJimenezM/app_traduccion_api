@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:wght@400;500;600;700&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: cadetblue;
+}
+
+.contenedor{
+    width: 690px;
+    background: lightblue;
+    border-radius: 7px;
+    padding: 30px;
+}
+
+.capa{
+    border-radius: 5px;
+    border:1px solid gray;
+}
+
+.capa .in-texto{
+    display:flex;
+    border-bottom: 1px solid grey;
+}
+
+.in-texto .hacia{
+    border-radius: 0px;
+    border-left: 1px solid grey;
+}
+
+.in-texto textarea{
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 18px;
+    border-radius: 5px;
+    background: none;
+    padding: 10px 15px;
+}
+
+.controles, li, .iconos, .iconos i{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.controles{
+    list-style: none;
+    padding: 12px 15px;
+}
+
+.controles .columna.origen .iconos{
+    padding-right: 15px;
+    border-right: 1px solid grey;
+}
+
+.controles .columna.destino .iconos{
+    padding-left: 15px;
+    border-left: 1px solid grey;
+}
+
+.controles .iconos{
+    width: 38%;
+}
+.controles .iconos i{
+    width: 50px;
+    color:lightseagreen;
+    font-size: 14px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.controles .columna select{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: none;
+}
+
+.controles .intercambio{
+    color: lightseagreen;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contenedor button{
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+    background: rgb(43, 149, 211);
+}
